@@ -3,3 +3,5 @@
 Ноутбук находится в репо [jupyter_notebooks](https://github.com/stsheab/jupyter_notebooks).
 
 Оформлено в виде приложений [streamlit](https://streamlit.io/) и [dash](https://dash.plotly.com/).
+
+![](opt_portfolios.png)

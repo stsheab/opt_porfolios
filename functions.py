@@ -144,7 +144,7 @@ def main(daily_data: pd.DataFrame, stocks_num: int, portfolios_num: int, stocks:
     res = pd.DataFrame(
         {'weights': weights_max_sharpe.round(3)}, index=stocks).T
 
-    fig = plot_results_plotly(portfolios_df.volatility, portfolios_df.returns,
+    fig = plot_results(portfolios_df.volatility, portfolios_df.returns,
                               volatilities_optimal, returns_range, vol_shrp_max, ret_shrp_max)
 
     return max_sharpe_ratio, res, fig
